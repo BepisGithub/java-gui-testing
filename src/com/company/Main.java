@@ -22,6 +22,8 @@ public class Main {
         frame.setVisible(true);
         frame.setSize(500, 500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
+
+        JLabel basic = new JLabel("Sample text");
+        frame.add(basic);
     }
 }
