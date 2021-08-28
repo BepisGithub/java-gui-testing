@@ -13,5 +13,7 @@ public class Main {
         frame.setVisible(true);
         frame.getContentPane().setBackground(Color.red); */
         MyFrame frame = new MyFrame();
+
+        JLabel label = new JLabel();
     }
 }
