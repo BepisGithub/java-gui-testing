@@ -16,5 +16,6 @@ public class Main {
 
         JLabel label = new JLabel();
         label.setText("Sample text");
+        frame.add(label);
     }
 }
