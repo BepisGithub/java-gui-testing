@@ -17,5 +17,11 @@ public class Main {
 //        JLabel label = new JLabel();
 //        label.setText("Sample text");
 //        frame.add(label);
+
+        JFrame frame = new JFrame();
+        frame.setVisible(true);
+        frame.setSize(500, 500);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
     }
 }
