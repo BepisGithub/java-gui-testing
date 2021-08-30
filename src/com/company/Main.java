@@ -9,6 +9,7 @@ public class Main {
 
         JPanel greenPanel = new JPanel();
         greenPanel.setBackground(Color.GREEN);
+        greenPanel.setBounds(0, 0, 200, 200);
 
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
