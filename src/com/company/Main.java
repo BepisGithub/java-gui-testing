@@ -12,6 +12,8 @@ public class Main {
         JLabel label = new JLabel("Hello, world!");
         label.setForeground(Color.GREEN);
         label.setFont(new Font("Comic Sans", Font.PLAIN, 20));
+        label.setBackground(Color.BLACK);
+        label.setOpaque(true);
         frame.add(label);
     }
 }
