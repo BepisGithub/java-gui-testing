@@ -17,6 +17,8 @@ public class Main {
         label.setBackground(Color.BLACK);
         label.setOpaque(true);
         label.setBorder(border);
+        label.setVerticalAlignment(JLabel.CENTER);
+        label.setHorizontalAlignment(JLabel.CENTER);
         frame.add(label);
     }
 }
