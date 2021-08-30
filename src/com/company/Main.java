@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         JPanel panel = new JPanel();
+        panel.setBackground(Color.GREEN);
 
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
