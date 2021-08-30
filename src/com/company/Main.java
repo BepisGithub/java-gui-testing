@@ -21,7 +21,7 @@ public class Main {
         label.setHorizontalAlignment(JLabel.CENTER);
 //        frame.setLayout(null);
 //        label.setBounds(0, 0, 350, 350);
-        frame.pack();
         frame.add(label);
+        frame.pack();
     }
 }
