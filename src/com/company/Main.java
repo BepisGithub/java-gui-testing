@@ -9,7 +9,7 @@ public class Main {
         JFrame frame = new JFrame();
         Border border = BorderFactory.createLineBorder(Color.GREEN, 3);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(500,500);
+//        frame.setSize(500,500);
         frame.setVisible(true);
         JLabel label = new JLabel("Hello, world!");
         label.setForeground(Color.GREEN);
@@ -19,8 +19,9 @@ public class Main {
         label.setBorder(border);
         label.setVerticalAlignment(JLabel.CENTER);
         label.setHorizontalAlignment(JLabel.CENTER);
-        frame.setLayout(null);
-        label.setBounds(0, 0, 350, 350);
+//        frame.setLayout(null);
+//        label.setBounds(0, 0, 350, 350);
+        frame.pack();
         frame.add(label);
     }
 }
